@@ -1,0 +1,22 @@
+
+class SongEntity {
+  final String id;
+  final String artist;
+  final String title;
+  final Duration duration;
+  final DateTime releaseDate;
+  final String? coverUrl;
+  final String? audioUrl;
+  final String? lyric;
+  SongEntity({
+    required this.id,
+    required this.artist,
+    required this.duration,
+    required this.releaseDate,
+    required this.title,
+    this.audioUrl,
+    this.coverUrl,
+    this.lyric,
+
+  });
+} 
